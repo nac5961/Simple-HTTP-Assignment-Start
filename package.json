@@ -1,0 +1,26 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "Simple HTTP Homework assignment for IGME-430",
+  "main": "./src/server.js",
+  "scripts": {
+	"start": "node ./src/server.js",
+	"pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nac5961/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Nicholas Cato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nac5961/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/nac5961/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
